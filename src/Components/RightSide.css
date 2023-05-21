@@ -1,0 +1,66 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    width: 17rem;
+    height: 8rem;
+    margin: 1rem;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border-radius: 1rem;
+    border: 1px solid rgb(0,147,255);
+    box-shadow: 10px 10px 10px -1px rgba(2, 50, 87, 0.16), 10px 10px 10px -1px rgba(4, 65, 111, 0.046);
+}
+
+.top {
+    position: relative;
+    left: 2rem;
+    font-weight: 400;
+    color: rgb(3, 36, 113);
+
+}
+
+.card h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: rgb(3, 36, 113);
+}
+
+.card h1 {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 350;
+}
+
+.card h4 {
+    color: rgb(255, 255, 255);
+}
+
+span{
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+
+
+}
+.weatherinfo{
+    width: 80%;
+    position: relative;
+  height: 100%;
+   
+}
+.card1{
+    position: relative;
+    left: 15rem;
+}
+@media screen and (max-width:1150px) {
+    .card1{
+        left: 2rem;
+
+    }}

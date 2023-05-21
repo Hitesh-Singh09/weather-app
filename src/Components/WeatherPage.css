@@ -1,0 +1,107 @@
+.container{
+    background: rgb(0,147,255);
+    background: radial-gradient(circle, rgba(0,147,255,1) 0%, rgba(0,212,255,1) 100%);
+
+}
+.wrapper{
+   margin: 2rem;
+    padding: 2rem;
+  
+    box-shadow: 10px 10px 100px -1px rgba(1, 17, 29, 0.16), 10px 10px 10px -1px rgba(4, 65, 111, 0.046);
+    
+    display: flex;
+    background: transparent;
+   
+  
+}
+.left{
+    margin: 1rem;
+    padding: 1rem;
+    flex: 1;
+    background: transparent;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 10px -1px rgba(2, 50, 87, 0.16), 10px 10px 10px -1px rgba(4, 65, 111, 0.046);
+border: 1px solid rgb(0,147,255);
+
+}
+.right{
+    margin: 1rem;
+    padding: 1rem;
+    flex: 3;
+    /* background-color: white; */
+    border-radius: 1rem;
+}
+
+input{
+padding: 0.5rem;
+border: none;
+border-bottom: 1px solid rgb(0, 0, 0);
+outline:none;
+width: 12rem;
+font-size: 1rem;
+background:rgb(249, 248, 248);
+cursor: pointer;
+border-radius: 0.5rem;
+margin: 1rem;
+}
+.searchbutton{
+    padding: 0.2rem;
+    margin: 0.1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(11, 11, 11);
+    width: 5rem;
+    color: white;
+    font-size: 1.2rem;
+    transition: 0.5s ease;
+}
+.searchbutton:hover{
+    background-color:  rgb(3, 36, 113);
+}
+.icon img{
+    position: relative;
+    right: 1rem;
+    font-size: 5rem;
+    color:yellow;
+    margin:1rem;
+    height: 10rem;
+}
+.temperature{
+    font-size: 5rem;
+    font-weight: 300;
+    color: rgb(3, 36, 113);
+
+}
+.weathermood{
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(3, 36, 113);
+
+}
+.place{
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 400;
+    color: rgb(3, 36, 113);
+
+}
+.date{font-size: 1.2rem;
+    color: rgb(3, 36, 113);
+margin-bottom: 5rem;
+
+}
+
+@media screen and (max-width:650px) {
+    
+.wrapper{
+flex-direction: column;
+margin: 0;
+padding: 0;
+    }
+.input{
+    width: 10rem;
+}
+.left,.right{
+    width: auto;
+    height:auto
+}
+}
